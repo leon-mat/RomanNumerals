@@ -20,5 +20,6 @@ class Converter
         if (10 === $number) {
             return 'X';
         }
+        return 'V';
     }
 }
