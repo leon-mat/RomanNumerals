@@ -1,0 +1,17 @@
+{
+    "name": "root/roman-numerals",
+    "require": {
+        "phpunit/phpunit": "^5.6"
+    },
+    "authors": [
+        {
+            "name": "leon-mat",
+            "email": "l.leonmatthieu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RomanNumerical\\": "src"
+        }
+    }
+}
