@@ -21,4 +21,10 @@ class RomanNumeralTest extends PHPUnit_Framework_TestCase
         $converter = new Converter();
         $this->assertEquals($converter->convert(5), 'V');
     }
+
+    public function test_CC()
+    {
+        $converter = new Converter();
+        $this->assertEquals($converter->convert(200), 'CC');
+    }
 }
