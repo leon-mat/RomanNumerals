@@ -15,4 +15,10 @@ class RomanNumeralTest extends PHPUnit_Framework_TestCase
         $converter = new Converter();
         $this->assertEquals($converter->convert(10), 'X');
     }
+
+    public function test_V()
+    {
+        $converter = new Converter();
+        $this->assertEquals($converter->convert(5), 'V');
+    }
 }
